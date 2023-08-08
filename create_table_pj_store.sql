@@ -88,7 +88,7 @@ CREATE TABLE public.categories
 ALTER TABLE IF EXISTS public.categories
     OWNER to postgres;
 	
--- Now I'm going to insert random data into the tables (Mockaroo)
+-- Now I'm going to insert Mockaroo data generated to the tables
 
 INSERT INTO categories(category_id, category_name, description)
 

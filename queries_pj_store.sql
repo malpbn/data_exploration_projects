@@ -222,7 +222,7 @@ INSERT INTO best_dchoco_sales
 
 SELECT * FROM best_dchoco_sales;
 
--- SCRIPT to COPY FOR TABLEAU AND POWER BI 
+-- Script to export and use in Power Bi and Tableau
 
 SELECT p.product_name, c.category_name, (p.price*od.quantity) AS sale_price, o.order_id, cu.customer_id, cu.customer_name, cu.city
 FROM products p
